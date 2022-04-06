@@ -66,7 +66,7 @@ public class CacheMain {
 	private void readFile() {
 		
 		try {
-			File importTraceFile= new File(traceFile);
+			File importTraceFile= new File("traces/"+traceFile);
 			
 			BufferedReader br = new BufferedReader(new FileReader(importTraceFile));
 			//br.read();
